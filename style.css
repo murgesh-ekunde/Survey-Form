@@ -27,3 +27,17 @@ table{
 .wtable{
     width: 25%;
 }
+
+@media (max-width:500px) {
+    body{
+        margin: 10px;
+    }
+    .container{
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        margin:0px;
+        padding: 0px;
+        max-width: 100%;
+    }
+}
